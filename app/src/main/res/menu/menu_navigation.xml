@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/signout"
+            android:title="Sign Out"/>
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/pharmacy"
+        android:title="Pharmacy">
+        <menu>
+            <item android:id="@+id/Vaccine_Schedule"
+                android:title="Prescription Transfer"/>
+            <item
+                android:id="@+id/vaccine_Scheduler"
+                android:title="vaccine Scheduler"/>
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Setting"
+        android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/Order"
+                android:title="Order"/>
+            <item
+                android:id="@+id/Account"
+            android:title="Account"/>
+            <item
+                android:id="@+id/FreshPass"
+            android:title="FreshPass"/>
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Help"
+        android:title="Help And Support">
+        <menu>
+            <item
+                android:id="@+id/FAQs"
+                android:title="Help/FAQs"/>
+            <item
+                android:id="@+id/Feedback"
+            android:title="Feedback"/>
+            <item
+                android:id="@+id/Contact"
+            android:title="Contact Us"/>
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/About"
+        android:title="About">
+        <menu>
+            <item
+                android:id="@+id/Terms"
+                android:title="Terms &amp; Policies"/>
+            <item
+                android:id="@+id/Third_Party"
+            android:title="Third Party &amp; Open Source"/>
+            <item
+                android:id="@+id/Product_Recalls"
+            android:title="Product Recalls"/>
+        </menu>
+    </item>
+    </group>
+</menu>
